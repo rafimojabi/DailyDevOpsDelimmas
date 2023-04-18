@@ -157,7 +157,7 @@ metadata:
     nginx.ingress.kubernetes.io/ssl-redirect: "false"
 spec:
   rules:
-  - host: "jenkins.example.com"
+  - host: "jenkins.devopszen.org"
     http:
       paths:
       - pathType: Prefix
